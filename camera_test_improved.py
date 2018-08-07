@@ -2,7 +2,7 @@ import paramiko
 from time import sleep
 from gpiozero import LED
  
-main_relay = LED(14)
+main_relay = LED(int(input("Type the pin here:")))
  
 camera_check = 'ls /dev/ttyS2 /dev/video0'
  
@@ -14,7 +14,7 @@ def main():
     fails = 0
  
     main_relay.on()
-    host = '10.10.0.201'
+    host = input("Type the IP here:")
     port = 22
     user = 'root'
     password = 'woot'
