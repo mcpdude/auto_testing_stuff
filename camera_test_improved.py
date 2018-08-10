@@ -93,7 +93,7 @@ def main():
 
 
         log_file = open(filename, 'a')
-        trial_number = passes + reboots + fails + 1
+        trial_number = passes + reboots + fails
         log_out = "Trial #: " + str(trial_number) + ", passes:", str(passes), ", fails:", str(fails), ", reboots:", str(reboots), "\n"
         log_out =  str(log_out)
         print(log_out)
