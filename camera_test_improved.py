@@ -2,6 +2,7 @@ import paramiko
 import datetime
 from time import sleep
 from gpiozero import LED
+from os.path import exists
  
 main_relay = LED(int(input("Type the pin here:")))
  
@@ -26,12 +27,19 @@ def main():
     connection_attempts = 0
     reboots = 0
 
-    print("Creating a logfile...")
-    filename = (date.today() + logfile.txt)
+    
+    filename = (str(datetime.date.today()) + "logfile.txt")
 
-    target = open(filename, 'x')
-    target.close()
- 
+    if exists(filename) != True:
+        print("Creating a logfile...")
+        target = open(filename, 'x')
+        target.close()
+        print("Logfile created!")
+
+    elif exists(filename) == True:
+        print("Appending to existing logfile.")
+
+    
     while True:
 
         
@@ -66,11 +74,6 @@ def main():
                 else:
                     print('invalid result')
 
-                log_file = open(filename, 'a')
-                trial_number = passes + reboots + fails + 1
-                log_out = str("Trial #: " + str(trial_number) + ", passes:", str(passes), ", fails:", str(fails), ", reboots:", str(reboots), "\n")
-                log_file.write(log_out)
-
 
  
             except:
@@ -87,7 +90,15 @@ def main():
                     main_relay.on()
                     connection_attempts = 0
                     reboots += 1
-        
+
+
+        log_file = open(filename, 'a')
+        trial_number = passes + reboots + fails + 1
+        log_out = "Trial #: " + str(trial_number) + ", passes:", str(passes), ", fails:", str(fails), ", reboots:", str(reboots), "\n"
+        log_out =  str(log_out)
+        print(log_out)
+        log_file.write(log_out)
+        log_file.close()
         
         connection_attempts = 0
         ssh.close()
