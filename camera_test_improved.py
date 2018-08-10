@@ -1,4 +1,5 @@
 import paramiko
+import datetime
 from time import sleep
 from gpiozero import LED
  
@@ -6,10 +7,13 @@ main_relay = LED(int(input("Type the pin here:")))
  
 camera_check = 'ls /dev/ttyS2 /dev/video0'
  
- 
+
  
  
 def main():
+
+    #Initialize variables and get the target for the Oven's IP
+    # also get the pion from the raspberry pi to toggle. 
     passes = 0
     fails = 0
  
@@ -21,11 +25,18 @@ def main():
  
     connection_attempts = 0
     reboots = 0
+
+    print("Creating a logfile...")
+    filename = (date.today() + logfile.txt)
+
+    target = open(filename, 'x')
+    target.close()
  
     while True:
 
-        main_relay.off()
-        sleep(1)
+        
+        #main_relay.off()
+        #sleep(1)
         main_relay.on()
         connected = False
         while connected == False:
@@ -54,6 +65,12 @@ def main():
 
                 else:
                     print('invalid result')
+
+                log_file = open(filename, 'a')
+                trial_number = passes + reboots + fails + 1
+                log_out = str("Trial #: " + str(trial_number) + ", passes:", str(passes), ", fails:", str(fails), ", reboots:", str(reboots), "\n")
+                log_file.write(log_out)
+
 
  
             except:
