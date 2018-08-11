@@ -20,6 +20,7 @@ def main():
  
     main_relay.on()
     host = input("Type the IP here:")
+    oven_serial = input("Type the serial # here.")
     port = 22
     user = 'root'
     password = 'woot'
@@ -94,10 +95,11 @@ def main():
 
         log_file = open(filename, 'a')
         trial_number = passes + reboots + fails
-        log_out = "Trial #: " + str(trial_number) + ", passes:", str(passes), ", fails:", str(fails), ", reboots:", str(reboots), "\n"
+        log_out = "Trial #: " + str(trial_number) +" at ", str(datetime.time), " with oven:", oven_serial,  " passes:", str(passes), ", fails:", str(fails), ", reboots:", str(reboots), "\n"
         log_out =  str(log_out)
         print(log_out)
         log_file.write(log_out)
+        log_file.write("\n")
         log_file.close()
         
         connection_attempts = 0
