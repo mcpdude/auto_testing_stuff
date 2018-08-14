@@ -17,6 +17,10 @@ while todo != "quit":
 
     elif todo == "off":
         print("Turning the relays off.")
+        pin14.on()
+        pin15.on()
+        pin18.on()
+        pin23.on()
         pin14.off()
         pin15.off()
         pin18.off()
