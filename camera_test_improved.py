@@ -18,10 +18,16 @@ def main():
     # also get the pion from the raspberry pi to toggle. 
     passes = 0
     fails = 0
+<<<<<<< HEAD
+  
+   main_relay.on()
+    host = '10.10.0.201'
+=======
  
     main_relay.on()
     host = input("Type the IP here:")
     oven_serial = input("Type the serial # here.")
+>>>>>>> 114beaf3e6379f6f28f5ad3c568adb4a43e0ded0
     port = 22
     user = 'root'
     password = 'woot'
