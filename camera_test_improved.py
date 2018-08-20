@@ -12,8 +12,8 @@ camera_check = 'ls /dev/ttyS2 /dev/video0'
 def main():
     passes = 0
     fails = 0
- 
-    main_relay.on()
+  
+   main_relay.on()
     host = '10.10.0.201'
     port = 22
     user = 'root'
