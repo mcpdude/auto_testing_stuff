@@ -7,19 +7,130 @@ import pigpio
 from time import sleep
 from os.path import exists
 
-test_list = ["WROD_test"]
+test_list = ["WROD_test", "rootfs_test"]
+
+def rootfs_test(IP_address, power_pin, button_pin):
+    localpi = pigpio.pi()
+    host = IP_address
+    port = 22
+    user = 'root'
+    password = 'woot'
+
+    
+    power_pin_relay_on = localpi.write(power_pin, 1)
+    power_pin_relay_off = localpi.write(power_pin, 0)
+
+    print(datetime.date.today())
+    filename = (str(datetime.date.today()) + "logfile.txt" + "_WROD")
+
+    if exists(filename) != True:
+        print("Creating a logfile...")
+        target = open(filename, 'x')
+        target.close()
+        print("Logfile created!")
+
+    elif exists(filename) == True:
+        print("Appending to existing logfile.")   
+
+    power_pin_relay_on
+
+    # CONNECT VIA SSH
+
+    connected = False
+    while connected == False:
+        try:
+            ssh = paramiko.SSHClient()
+            ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+            ssh.connect(host, username = user, password = password)
+            print("connected!")
+            connected = True
+            sleep(5)
+            print('running command')
+            stdin, stdout, stderr = ssh.exec_command("cat /etc/version.txt")
+            output = stdout.readlines()
+            print(output)
+
+
+    #CHECK OUTPUT
+
+
+
+        except:
+                
+            print("Retrying Connection... Attempt #:", connection_attempts + 1)
+            sleep(1)
+            connected = False
+            connection_attempts += 1
+            if connection_attempts >=50:
+                print("Couldn't connect, rebooting.")
+                power_pin_relay_on 
+                power_pin_relay_off 
+                sleep(10)
+                power_pin_relay_on
+                connection_attempts = 0
+
+
+
 
 def WROD_test(IP_address, power_pin, button_pin):
 
+
+
     localpi = pigpio.pi()
     host = IP_address
-
+    port = 22
+    user = 'root'
+    password = 'woot'
 
     
     power_pin_relay_on = localpi.write(power_pin, 1)
     power_pin_relay_off = localpi.write(power_pin, 0)
     button_on = localpi.set_servo_pulsewidth(button_pin, 1000)
     button_off = localpi.set_servo_pulsewidth(button_pin, 1500)
+
+# CREATE LOGFILE
+    print(datetime.date.today())
+    filename = (str(datetime.date.today()) + "logfile.txt" + "_WROD")
+
+    if exists(filename) != True:
+        print("Creating a logfile...")
+        target = open(filename, 'x')
+        target.close()
+        print("Logfile created!")
+
+    elif exists(filename) == True:
+        print("Appending to existing logfile.")
+
+# CONNECT VIA SSH
+
+    connected = False
+    while connected == False:
+        try:
+            ssh = paramiko.SSHClient()
+            ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+            ssh.connect(host, username = user, password = password)
+            print("connected!")
+            connected = True
+            sleep(5)
+            print('running command')
+            stdin, stdout, stderr = ssh.exec_command()
+            out_put = stdout.readlines()
+            print(out_put)
+
+        except:
+                
+                print("Retrying Connection... Attempt #:", connection_attempts + 1)
+                sleep(1)
+                connected = False
+                connection_attempts += 1
+                if connection_attempts >=50:
+                    print("Couldn't connect, rebooting.")
+                    power_pin_relay_on 
+                    power_pin_relay_off 
+                    sleep(10)
+                    power_pin_relay_on
+                    connection_attempts = 0
+
 
 # TESTING
 
@@ -52,6 +163,26 @@ def main():
         if test_to_run == "WROD_test":
             break
 
+    if test_to_run == "rootfs_test":
+        times_to_run = int(input("How many times should I run this test?\n"))
+        power_pin = int(input("Type the power relay pin here:"))
+        button_pin = 5 ## we don't need the button for this test.
+        IP_address = input("Type the oven's IP IP_address here:")
+
+        for i in range(1, times_to_run + 1):
+            print("Running test WROD test, trial: ", i, "of ", times_to_run, "\n")
+            result = WROD_test(IP_address, power_pin, button_pin)
+
+            if result == "PASS":
+                passes += 1
+                print("Pass!")
+
+            elif result == "FAIL":
+                fails += 1
+                print("Fail...")
+
+            else:
+                print("Whoops!")
 
 
 
