@@ -1,4 +1,7 @@
-from gpiozero import LED
+import pigpio
+
+pi = pigpio.pi()
+
 pins = {
     "1": "18",
     "2": "3", # Ken messed this up, yell at him if it borks
@@ -8,7 +11,7 @@ pins = {
     "6": "22",
     "7": "23",
     "8": "24",
-    "9": "24",
+    "9": "25",
     "10": "5",
     "11": "6",
     "12": "13",
@@ -33,22 +36,22 @@ while todo != "quit":
 
         else:
             print("Turning on relay:", which, "GPIO:",  pins.get(which, ""))
-            switch = LED(int(pins.get(which, ""))
-            switch.on()
+            pi.set_mode(int(pins.get(which, "")), pigpio.OUTPUT)
+            pi.write(int(pins.get(which, "")), 1)
             print("Turned on the relay.")
 
 
 
     elif todo == "off":
-        print("Turning the relays off.")
-        pin14.on()
-        pin15.on()
-        pin18.on()
-        pin23.on()
-        pin14.off()
-        pin15.off()
-        pin18.off()
-        pin23.off()
+        which = input("Which one? Type all to turn them all on.\n")
+        if which == "all":
+            print("this don't work, sorry")
+
+        else:
+            print("Turning off relay:", which, "GPIO:",  pins.get(which, ""))
+            #pi.set_mode(int(which), pigpio.OUTPUT)
+            pi.write(int(pins.get(which, "")), 0)            
+            print("Turned off the relay.")
 
     elif todo =="quit":
         break
