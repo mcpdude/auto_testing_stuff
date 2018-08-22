@@ -32,8 +32,8 @@ while todo != "quit":
             print("this don't work, sorry")
 
         else:
-            print("Turning on relay:", pins.get(which, ""))
-            switch = LED(pins.get(which, ""))
+            print("Turning on relay:", which, "GPIO:",  pins.get(which, ""))
+            switch = LED(int(pins.get(which, ""))
             switch.on()
             print("Turned on the relay.")
 
