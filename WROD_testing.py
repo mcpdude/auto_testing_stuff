@@ -116,7 +116,7 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
         
         print("Checking the state of the oven...")
     
-        stdin, stdout, stderr  = ssh.exec_command("journalctl -u timelord | grep Needsinstall")
+        stdin, stdout, stderr  = ssh.exec_command("journalctl -u timelord | grep NeedsInstall")
         check =  stdout.readlines()
         print(check)
         sleep(10)
