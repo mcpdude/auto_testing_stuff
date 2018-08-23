@@ -139,12 +139,14 @@ def WROD_test(IP_address, power_pin, button_pin):
 # CONNECT VIA SSH
 
     connected = False
+    connection_attempts = 0
+    power_pin_relay_on
     while connected == False:
         try:
             ssh = paramiko.SSHClient()
             ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
             ssh.connect(host, username = user, password = password)
-            print("connected!")
+            print("connected! LIES")
             connected = True
             sleep(5)
             print('running command')
@@ -198,26 +200,26 @@ def main():
         if test_to_run == "WROD_test":
             break
 
-    if test_to_run == "rootfs_test":
-        times_to_run = int(input("How many times should I run this test?\n"))
-        power_pin = int(input("Type the power relay pin here:"))
-        button_pin = 5 ## we don't need the button for this test.
-        IP_address = input("Type the oven's IP IP_address here:")
+        if test_to_run == "rootfs_test":
+            times_to_run = int(input("How many times should I run this test?\n"))
+            power_pin = int(input("Type the power relay pin here:"))
+            button_pin = 5 ## we don't need the button for this test.
+            IP_address = input("Type the oven's IP IP_address here:")
 
-        for i in range(1, times_to_run + 1):
-            print("Running test rootfs test, trial: ", i, "of ", times_to_run, "\n")
-            result = WROD_test(IP_address, power_pin, button_pin)
+            for i in range(1, times_to_run + 1):
+                print("Running test rootfs test, trial: ", i, "of ", times_to_run, "\n")
+                result = WROD_test(IP_address, power_pin, button_pin)
 
-            if result == "PASS":
-                passes += 1
-                print("Pass!")
+                if result == "PASS":
+                    passes += 1
+                    print("Pass!")
 
-            elif result == "FAIL":
-                fails += 1
-                print("Fail...")
+                elif result == "FAIL":
+                    fails += 1
+                    print("Fail...")
 
-            else:
-                print("Whoops!")
+                else:
+                    print("Whoops!")
 
 
 
