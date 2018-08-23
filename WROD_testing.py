@@ -10,12 +10,13 @@ from os.path import exists
 
 test_list = ["WROD_test", "rootfs_test"]
 
-def rootfs_test(IP_address, power_pin, button_pin):
+def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
     localpi = pigpio.pi()
     host = IP_address
     port = 22
     user = 'root'
     password = 'woot'
+    oven_serial = oven_serial
 
     rootfs = ""
     
@@ -34,13 +35,14 @@ def rootfs_test(IP_address, power_pin, button_pin):
     elif exists(filename) == True:
         print("Appending to existing logfile.")   
 
-    power_pin_relay_on
+    localpi.write(power_pin, 1) # not strictly necessary; we turned it on in main
 
     # CONNECT VIA SSH
 
-    subprocess.run(["ssh-keygen", "-R", host])
+    subprocess.run(["ssh-keygen", "-R", host]) #clear keys
 
     connected = False
+    connection_attempts = 0
     while connected == False:
         try:
             ssh = paramiko.SSHClient()
@@ -51,22 +53,27 @@ def rootfs_test(IP_address, power_pin, button_pin):
 
 
         except:
-                
+            
             print("Retrying Connection... Attempt #:", connection_attempts + 1)
             sleep(1)
             connected = False
             connection_attempts += 1
             if connection_attempts >=50:
                 print("Couldn't connect, rebooting.")
-                power_pin_relay_on 
-                power_pin_relay_off 
+                localpi.write(power_pin, 1) 
+                localpi.write(power_pin, 0) 
                 sleep(10)
-                power_pin_relay_on
+                localpi.write(power_pin, 1)
                 connection_attempts = 0
 
     #CLEAR CACHE
     print("Clearing cache...")
+    stdin, stdout, stderr  = ssh.exec_command("ls /brava/cache")
+    output = stdout.readlines()
+    print("Here's what's there.", stdout)
     ssh.exec_command("rm /brava/cache/*.bos")
+    output  = ssh.exec_command("ls /brava/cache")
+    print("Here's what's there now.", output)
     print("Cache cleared!")
 
     sleep(5)
@@ -79,20 +86,62 @@ def rootfs_test(IP_address, power_pin, button_pin):
 
 
     #CHECK OUTPUT
+    
+    ready_to_reboot = False
 
-    if version == "keller_0.12_1d8bb70\n":
+    if "keller_1.0\n" in version :
         rootfs = "A"
         print("We're on the A version.")
-        return("PASS")
+        subprocess.run(["ssh", "deploy@brava.cloud", "cohort-serial", "Emma-9-cohort-test", oven_serial])
+        
+        #return("PASS")
 
-    elif version == "keller_1.0\n":## Kuy will supply this
+    elif "keller_0.12_1d8bb70\n" in version:## Kuy will supply this
         rootfs = "B"
         print("We're on the B version.")
-        return("PASS")
+        subprocess.run(["ssh", "deploy@brava.cloud", "cohort-serial", "emma-gold", oven_serial])
+        
+        
+        
+        #return("PASS")
 
     else:
         print("Are you sure you're on the right oven?")
         return("FAIL")
+        
+    while ready_to_reboot == False:
+        
+        print("Checking the state of the oven...")
+    
+        stdin, stdout, stderr  = ssh.exec_command("journalctl -u timelord | grep Needsinstall")
+        check =  stdout.readlines()
+        print(check)
+        sleep(10)
+        
+        if "NeedsInstall" in check:
+            ready_to_reboot = True
+            
+    localpi.write(power_pin, 0)
+    
+    ssh.close()
+    subprocess.run(["ssh-keygen", "-R", host]) #clear keys
+    sleep(10)
+    localpi.write(power_pin, 1)
+    
+    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    ssh.connect(host, username = user, password = password)
+    print("connected, after reboot!")
+    stdin, stdout, stderr  = ssh.exec_command("cat /etc/version.txt")
+    new_version = stdout.readlines()
+    print(new_version)
+    if new_version == version:
+        return("FAIL")
+        
+    elif new_version != version:
+        return("PASS")
+    
+    
+    
 
 
 
@@ -134,7 +183,7 @@ def WROD_test(IP_address, power_pin, button_pin):
 
     connected = False
     connection_attempts = 0
-    power_pin_relay_on
+    localpi.write(power_pin, 1)
     while connected == False:
         try:
             ssh = paramiko.SSHClient()
@@ -156,18 +205,18 @@ def WROD_test(IP_address, power_pin, button_pin):
                 connection_attempts += 1
                 if connection_attempts >=50:
                     print("Couldn't connect, rebooting.")
-                    power_pin_relay_on 
-                    power_pin_relay_off 
+                    localpi.write(power_pin, 1) 
+                    localpi.write(power_pin, 0) 
                     sleep(10)
-                    power_pin_relay_on
+                    localpi.write(power_pin, 1)
                     connection_attempts = 0
 
 
 # TESTING
 
-    power_pin_relay_off
+    localpi.write(power_pin, 0)
     sleep(3)
-    power_pin_relay_on
+    localpi.write(power_pin, 1)
 
     return("PASS")
 
@@ -183,6 +232,8 @@ def main():
     power_pin = 0
     IP_address = ""
     test_to_run = ""
+    
+    localpi = pigpio.pi()
 
     while test_to_run !="Q":
 
@@ -197,12 +248,14 @@ def main():
         if test_to_run == "rootfs_test":
             times_to_run = int(input("How many times should I run this test?\n"))
             power_pin = int(input("Type the power relay pin here:"))
-            button_pin = 5 ## we don't need the button for this test.
-            IP_address = input("Type the oven's IP IP_address here:")
+            localpi.write(power_pin, 1) # turn the oven on so you can get the IP
+            button_pin = "" ## we don't need the button for this test.
+            IP_address = input("Type the oven's IP_address here:")
+            oven_serial = input("Type the oven's serial number.")
 
             for i in range(1, times_to_run + 1):
                 print("Running test rootfs test, trial: ", i, "of ", times_to_run, "\n")
-                result = WROD_test(IP_address, power_pin, button_pin)
+                result = rootfs_test(IP_address, power_pin, button_pin, oven_serial)
 
                 if result == "PASS":
                     passes += 1
