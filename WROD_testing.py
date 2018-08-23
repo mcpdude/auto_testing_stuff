@@ -86,13 +86,15 @@ def rootfs_test(IP_address, power_pin, button_pin):
 
     #CHECK OUTPUT
 
-    if version == "keller_0.12_1d8bb70":
+    if version == "keller_0.12_1d8bb70\n":
         rootfs = "A"
         print("We're on the A version.")
+        return("PASS")
 
-#    elif version == "sdkfjhdsf":## Kuy will supply this
+    elif version == "keller_1.0\n":## Kuy will supply this
         rootfs = "B"
         print("We're on the B version.")
+        return("PASS")
 
     else:
         print("Are you sure you're on the right oven?")
