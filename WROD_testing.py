@@ -38,6 +38,8 @@ def rootfs_test(IP_address, power_pin, button_pin):
 
     # CONNECT VIA SSH
 
+    subprocess.run(["ssh-keygen", "-R", host])
+
     connected = False
     while connected == False:
         try:
@@ -46,14 +48,6 @@ def rootfs_test(IP_address, power_pin, button_pin):
             ssh.connect(host, username = user, password = password)
             print("connected!")
             connected = True
-            sleep(5)
-            print('querying version')
-            stdin, stdout, stderr = ssh.exec_command("cat /etc/version.txt")
-            version = stdout.readlines()
-            print(version)
-
-
-
 
 
         except:
