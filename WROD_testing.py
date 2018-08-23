@@ -109,6 +109,9 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
         print("Are you sure you're on the right oven?")
         return("FAIL")
         
+    #prod the oven to check for a new cohort
+    ssh.exec_command("nc -U /var/run/bambino <<< 'K1:36:S3:SETK1:24:S12:/ota/commandS5:check'")
+
     while ready_to_reboot == False:
         
         print("Checking the state of the oven...")
