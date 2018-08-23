@@ -3,6 +3,7 @@ import scp
 import datetime
 import subprocess
 import pigpio
+import subprocess
 
 from time import sleep
 from os.path import exists
@@ -16,6 +17,7 @@ def rootfs_test(IP_address, power_pin, button_pin):
     user = 'root'
     password = 'woot'
 
+    rootfs = ""
     
     power_pin_relay_on = localpi.write(power_pin, 1)
     power_pin_relay_off = localpi.write(power_pin, 0)
@@ -45,13 +47,12 @@ def rootfs_test(IP_address, power_pin, button_pin):
             print("connected!")
             connected = True
             sleep(5)
-            print('running command')
+            print('querying version')
             stdin, stdout, stderr = ssh.exec_command("cat /etc/version.txt")
-            output = stdout.readlines()
-            print(output)
+            version = stdout.readlines()
+            print(version)
 
 
-    #CHECK OUTPUT
 
 
 
@@ -68,6 +69,38 @@ def rootfs_test(IP_address, power_pin, button_pin):
                 sleep(10)
                 power_pin_relay_on
                 connection_attempts = 0
+
+    #CLEAR CACHE
+    print("Clearing cache...")
+    ssh.exec_command("rm /brava/cache/*.bos")
+    print("Cache cleared!")
+
+    sleep(5)
+    print('querying version')
+    stdin, stdout, stderr = ssh.exec_command("cat /etc/version.txt")
+    version = stdout.readlines()
+    print(version)
+
+
+
+
+    #CHECK OUTPUT
+
+    if version == "keller_0.12_1d8bb70":
+        rootfs = "A"
+        print("We're on the A version.")
+
+#    elif version == "sdkfjhdsf":## Kuy will supply this
+        rootfs = "B"
+        print("We're on the B version.")
+
+    else:
+        print("Are you sure you're on the right oven?")
+        return("FAIL")
+
+
+
+
 
 
 
@@ -170,7 +203,7 @@ def main():
         IP_address = input("Type the oven's IP IP_address here:")
 
         for i in range(1, times_to_run + 1):
-            print("Running test WROD test, trial: ", i, "of ", times_to_run, "\n")
+            print("Running test rootfs test, trial: ", i, "of ", times_to_run, "\n")
             result = WROD_test(IP_address, power_pin, button_pin)
 
             if result == "PASS":
