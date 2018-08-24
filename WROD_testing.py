@@ -122,8 +122,12 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
         print("check type", type(check))
         sleep(10)
         
-        if "NeedsInstall" in check:
-            ready_to_reboot = True
+        if "NeedsInstall" in str(check): 
+            print("it works!")
+            ready_to_boot = True
+
+        #if "NeedsInstall" in check:
+        #    ready_to_reboot = True
             
     localpi.write(power_pin, 0)
     
