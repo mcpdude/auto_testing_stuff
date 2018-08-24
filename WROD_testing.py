@@ -119,6 +119,7 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
         stdin, stdout, stderr  = ssh.exec_command("journalctl -u timelord | grep NeedsInstall")
         check =  stdout.readlines()
         print(check)
+        print("check type", type(check))
         sleep(10)
         
         if "NeedsInstall" in check:
