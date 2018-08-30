@@ -1,11 +1,12 @@
 import paramiko
 from time import sleep
-import pigpiod
+import pigpio
 
 def main():
 	user =  "root"
 	password = "woot"
 	host = ""
+	localpi = pigpio.pi()
 
 	power_pin = 0
 
@@ -61,11 +62,11 @@ def main():
 
 	# When connected, query the serial number and plug in events.
 
-		returned_serial = check_serial()
+		returned_serial = check_serial(host)
 		print("the serial is", returned_serial)
 
 			#read the plugins
-		current_plugins = check_plugins()
+		current_plugins = check_plugins(host)
 		print("the plugins are ", current_plugins)
 
 	# If this is the initial run of the test, store the plug in events.
@@ -81,7 +82,7 @@ def main():
 
 		for i in range(0,5):
 			print("Check #", i, "checking the serial...")
-			check = check_serial()
+			check = check_serial(host)
 
 			if check == expected_serial:
 				print("The serial is correct")
@@ -93,12 +94,12 @@ def main():
 				print("Wrong serial! fail:(")
 				serial_fails += 1
 	# If the serial is blank, fail
-			elif check = "":
+			elif check == "":
 				print("no serial. Fail:(")
 				serial_fails += 1
 	# On the 6th query, check the plugin events is correct.
 			print("checking plugins...")
-			check = check_plugins()
+			check = check_plugins(host)
 
 
 	# If plugin is incorrect, fail and restart the initial plugin events check
@@ -127,7 +128,27 @@ def main():
 		localpi.write(power_pin, 0)
 
 
-def check_serial():
+def check_serial(host):
+	
+	user =  "root"
+	password = "woot"
+
+	host = host
+	connected = False
+	while connected == False:
+		try:
+			ssh = paramiko.SSHClient()
+			ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+			ssh.connect(host, username = user, password = password)
+			print("connected!")
+			connected = True
+
+
+
+		except:
+			sleep(1)
+			print("connecting...")
+	
 
 	stdin, stdout, stderr = ssh.exec_command("echo 'serial' | nc -q 1 -U /var/run/bosh")
 	output = stdout.readlines()
@@ -138,10 +159,31 @@ def check_serial():
 
 	output = output[35:49]
 	print(output)
+	ssh.close()
 
 	return(output)
 
-def check_plugins():
+def check_plugins(host):
+
+	user =  "root"
+	password = "woot"
+
+	host = host
+	connected = False
+	while connected == False:
+		try:
+			ssh = paramiko.SSHClient()
+			ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+			ssh.connect(host, username = user, password = password)
+			print("connected!")
+			connected = True
+
+
+
+		except:
+			sleep(1)
+			print("connecting...")
+
 
 	stdin, stdout, stderr = ssh.exec_command("echo 'reg 262' | nc -q 1 -U /var/run/bosh")
 	output = stdout.readlines()
@@ -150,9 +192,15 @@ def check_plugins():
 	output = output[3]
 	print(output)
 
-	output = output[35:46]
+	output = output[38:46]
 	print(output)
+	clear_leading = output[0]
+	while clear_leading == 0:
+		output = output[1:]
+		clear_leading = output[0]
+		
+	ssh.close()
 	return(int(output))
 
 
-
+main()
