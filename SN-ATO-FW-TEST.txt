@@ -1,0 +1,9 @@
+cohort-serial auto_test WN1-3PNT-LRNX
+
+cohort-serial auto_test 2D5F-NXAH-1YAE
+
+cohort-serial auto_test 2CLJ-MK0C-1ET9
+
+cohort-serial auto_test 4RYC-16J4-9NMK
+
+cohort-serial auto_test TWPT-95FP-NT00

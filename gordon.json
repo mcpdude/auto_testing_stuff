@@ -1,0 +1,112 @@
+{
+	"tests":
+	{
+	},
+	"sets":
+	{
+	},
+	"commands":
+	{
+
+		"check_ovend":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/version/ovend"}
+			]
+		},
+
+		"check_updateEnable":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/ctl/updateEnable"}
+			]
+		},
+
+		"check_updateStat":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/perf/update/stat"}
+			]
+		},
+
+		"check_vision":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/version/visiond"}
+			]
+		},
+
+		"check_hvmcu":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/version/hvmcu"}
+			]
+
+			
+		},
+
+		"check_lvmcu":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/version/lvmcu"}
+			]
+
+			
+		},
+
+		"check_sdmcu":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/version/sdmcu"}
+			]
+
+			
+		},
+
+		"check_LV_state":
+		{
+			"command":
+			[
+				{"read": "/oven/hw/mon/systemMode"}
+			]
+
+			
+		},
+
+		"set_updateEnableTrue":
+		{
+
+			"command":
+			[
+				{"write": "/oven/hw/ctl/updateEnable", "value": 1}
+			]
+		},
+
+		"set_updateEnableFalse":
+		{
+
+			"command":
+			[
+				{"write": "/oven/hw/ctl/updateEnable", "value": 0}
+			]
+		},
+
+		"get_updateProgress":
+		{
+
+			"command":
+			[
+				{"read": "/oven/hw/perf/update/progress", "value": 0}
+			]
+		}
+
+	}
+
+}

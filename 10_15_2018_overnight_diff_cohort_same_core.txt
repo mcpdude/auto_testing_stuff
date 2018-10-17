@@ -1,0 +1,2712 @@
+
+ ###################################################### 
+
+beginning trial # 0
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 1
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 2
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 3
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 4
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 5
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 6
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 7
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 8
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 9
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 10
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 11
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 12
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 13
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 14
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 15
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 16
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 17
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 18
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 19
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 20
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 21
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 22
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 23
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 24
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 25
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 26
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 27
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 28
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 29
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 30
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 31
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 32
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 33
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 34
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 35
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 36
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 37
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 38
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 39
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 40
+Moving to auto_test4 cohort
+Unable to lock cohort config
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+dang it, the old visiond version is not correct
+
+ ###################################################### 
+
+beginning trial # 41
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 42
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 43
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 44
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 45
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 46
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 47
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 48
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 49
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 50
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 51
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+check_vision 11e0947
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+The Test is PASSED, YAY!
+
+ ###################################################### 
+
+beginning trial # 52
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+The FW is not updating - PASS
+Moving to auto_test3 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test3".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  11e0947
+dang it, the old visiond version is not correct
+
+ ###################################################### 
+
+beginning trial # 53
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+dang it, the old visiond version is not correct
+
+ ###################################################### 
+
+beginning trial # 54
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+dang it, the old visiond version is not correct
+
+ ###################################################### 
+
+beginning trial # 55
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+dang it, the old visiond version is not correct
+
+ ###################################################### 
+
+beginning trial # 56
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 57
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 58
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 59
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 60
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 61
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 62
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 63
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 64
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 65
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 66
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 67
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 68
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 69
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 70
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 71
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 72
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 73
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 74
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 75
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 76
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 77
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 78
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 79
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 80
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 81
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 82
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 83
+Moving to auto_test4 cohort
+Unable to lock cohort config
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 84
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 85
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 86
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 87
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 88
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 89
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 90
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 91
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 92
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 93
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 94
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 95
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 96
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 97
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 98
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+
+ ###################################################### 
+
+beginning trial # 99
+Moving to auto_test4 cohort
+Ok, serial "4RYC-16J4-9NMK" added/moved to cohort "auto_test4".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  ec4dca7
+check_vision ec4dca7
+
+pass!
+the oven is on the correct vision version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+The FW is updating - FAIL
+Passes  51 fails  49 Trials  100

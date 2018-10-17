@@ -96,7 +96,7 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
         
         #return("PASS")
 
-    elif "keller_0.12_1d8bb70\n" in version:## Kuy will supply this
+    elif "keller_1.01\n" in version:## Kuy will supply this
         rootfs = "B"
         print("We're on the B version.")
         subprocess.run(["ssh", "deploy@brava.cloud", "cohort-serial", "emma-gold", oven_serial])
@@ -122,9 +122,11 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
         print("check type", type(check))
         sleep(10)
         
-        if "NeedsInstall" in str(check): 
-            print("it works!")
-            ready_to_boot = True
+        for i in check:
+            print(i)
+            if "NeedsInstall" in i:
+                print("time to reboot")
+                ready_to_reboot = True
 
         #if "NeedsInstall" in check:
         #    ready_to_reboot = True
@@ -136,8 +138,21 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
     sleep(10)
     localpi.write(power_pin, 1)
     
-    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-    ssh.connect(host, username = user, password = password)
+    
+
+    
+    connected = False
+    while connected == False:
+        try:
+            ssh.connect(host, username = user, password = password)
+            connected = True
+        
+        except :
+            print("Retrying connection after the reboot...")
+            connected = False
+            sleep(4)
+        
+        
     print("connected, after reboot!")
     stdin, stdout, stderr  = ssh.exec_command("cat /etc/version.txt")
     new_version = stdout.readlines()
@@ -147,6 +162,8 @@ def rootfs_test(IP_address, power_pin, button_pin, oven_serial):
         
     elif new_version != version:
         return("PASS")
+        
+    ssh.close()
     
     
     
@@ -262,7 +279,7 @@ def main():
             oven_serial = input("Type the oven's serial number.")
 
             for i in range(1, times_to_run + 1):
-                print("Running test rootfs test, trial: ", i, "of ", times_to_run, "\n")
+                print("Running test rootfs test, trial: ", i, "of ", times_to_run, "\n", "passes/fails:", passes, "/", fails)
                 result = rootfs_test(IP_address, power_pin, button_pin, oven_serial)
 
                 if result == "PASS":

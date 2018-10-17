@@ -1,0 +1,6461 @@
+
+ ###################################################### 
+
+beginning trial # 0
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7833333333333333e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1995582166666667
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 1
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1913677833333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2106859833333334
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 2
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1942849666666668
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1814502666666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 3
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1852503666666665
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.20964585
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 4
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1982199166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1946737833333332
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 5
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2052887333333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2086390166666667
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 6
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1947587166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.20132185
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 7
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.21227095
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2084660166666665
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 8
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2051768833333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19908925
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 9
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1957889666666666
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2171456999999999
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 10
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2087633166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1970721333333332
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 11
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.19067105
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2197285833333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 12
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2093361666666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1949715833333334
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 13
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2146427333333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2150117
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+The lvmcu and hvmcu versions do not match
+
+ ###################################################### 
+
+beginning trial # 14
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.20643405
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2003166333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 15
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1996145333333332
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  6.2042155
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 16
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2075282999999999
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1979316
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 17
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2014411166666668
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19974935
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 18
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2125031666666668
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2025894166666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 19
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2054256333333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1966938666666667
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 20
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2075657833333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Unable to lock cohort config
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 21
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.6833333333333335e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1915082333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 22
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1911487666666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1956504333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 23
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2066635
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2038525500000001
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 24
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2078135666666665
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1972134166666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+The lvmcu and hvmcu versions do not match
+
+ ###################################################### 
+
+beginning trial # 25
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1858487833333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1935781666666665
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 26
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1903801333333335
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2071709166666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 27
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1855171833333331
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1911851666666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 28
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1915307666666666
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1898019833333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 29
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1960828166666666
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19192945
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 30
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1982749499999998
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1863952833333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 31
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1923219
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19126785
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 32
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2020129166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1840633999999999
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 33
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.18501695
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1922709166666665
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 34
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.20337155
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1986467333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 35
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1915745166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1969344166666667
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 36
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1979544833333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1832585666666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 37
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1906665333333335
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1835792
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 38
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.192141
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1870798333333332
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 39
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1938113333333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1916105333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 40
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1842623333333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19120405
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 41
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1822317333333332
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+The lvmcu and hvmcu versions do not match
+
+ ###################################################### 
+
+beginning trial # 42
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.8e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2103363833333334
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 43
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1842080166666666
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.6381178333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 44
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1860211166666665
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1904567499999998
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 45
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1924660833333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1871141666666667
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 46
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1889018166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19445585
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 47
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2040074166666666
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.18407635
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 48
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1966148333333335
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1936254333333334
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 49
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1910465666666668
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1968471166666668
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 50
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1871075333333332
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2089326333333332
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 51
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1980456166666669
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1892131333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 52
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1958744000000001
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1994152666666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 53
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1959799999999998
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1901307666666667
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 54
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1944884
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19086625
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 55
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1842244666666666
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1898334000000002
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 56
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1844073333333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1911224833333334
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 57
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1924678
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1851255666666667
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 58
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1912773833333332
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1885915500000002
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 59
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1930694333333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1957031333333332
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 60
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1866525333333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1911876166666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 61
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1950589166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.18378125
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 62
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1993538000000001
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1845385666666668
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 63
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1842909666666666
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.19206835
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 64
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1832888333333333
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1968895000000002
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 65
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1903843833333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.20989525
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 66
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1831133666666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1940380166666666
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 67
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1910327500000002
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.1973907333333333
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 68
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1881967166666667
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+check_ovend bbc0714
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the new fw is  1.2288644333333332
+done updating the fw!
+Looking for :  bbc0714
+check_lvmcu bbc0714
+
+pass!
+Looking for :  bbc0714
+check_hvmcu bbc0714
+
+pass!
+The lvmcu and hvmcu versions match
+The Secpond Update is finished
+The test has PASSED!! Hurray
+
+ ###################################################### 
+
+beginning trial # 69
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+Looking for :  check_updateProgress 100
+waiting another 10 seconds for the fw update to finish...
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.1855246333333334
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 70
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7333333333333332e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 71
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.95e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 72
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.2833333333333333e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 73
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.8166666666666667e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 74
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.15e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 75
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.55e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 76
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.9666666666666668e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 77
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 78
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.6166666666666667e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 79
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 80
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.8833333333333332e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 81
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.45e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 82
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.75e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 83
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.55e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 84
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.916666666666667e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 85
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7666666666666668e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 86
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.6000000000000001e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 87
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  5.583333333333334e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 88
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.3166666666666666e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 89
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7333333333333332e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 90
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7833333333333333e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 91
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.916666666666667e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 92
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.9e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 93
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.9e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 94
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.6666666666666667e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 95
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7166666666666666e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 96
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.916666666666667e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 97
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.5166666666666666e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 98
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  1.7666666666666668e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+
+ ###################################################### 
+
+beginning trial # 99
+Moving to auto_test cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test".
+
+checking cohorts...
+committing old cohorts...
+committed old cohort...
+Looking for :  356eb00
+check_ovend 356eb00
+
+pass!
+the oven is on the correct ovend version. Checking if there is update on the fw
+Looking for :  check_updateStat 0
+check_updateStat 0
+
+pass!
+Time taken to update to the old fw is  2e-06
+done updating the fw!
+Looking for :  356eb00
+check_lvmcu 356eb00
+
+pass!
+Looking for :  356eb00
+check_hvmcu 356eb00
+
+pass!
+The lvmcu and hvmcu versions match
+The First Update is finished
+Moving to auto_test2 cohort
+Ok, serial "TWPT-95FP-NT00" added/moved to cohort "auto_test2".
+
+checking cohorts...
+committing new cohorts...
+committed new cohort...
+Looking for :  bbc0714
+dang it, the new ovend version is not correct
+Passes  65 fails  35 Trials  100
